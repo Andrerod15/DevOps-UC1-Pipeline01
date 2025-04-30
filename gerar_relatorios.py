@@ -1,4 +1,4 @@
-impor pandas as pd  
+import pandas as pd  
 
 df = pd.read_csv('data.csv')  
 relatorio = df.describe().to_html() # Gera estatísticas em HTML   
